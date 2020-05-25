@@ -1,0 +1,23 @@
+<?xml version ="1.0" encoding ="utf-8"?>
+<!--    Example Action -->
+<!--    <action intentName="Intent name (actions.intent.*)"> -->
+<!--        <action-display -->
+<!--            icon="@mipmap/..." -->
+<!--            labelTemplate="@array/..." /> -->
+<!--        <fulfillment urlTemplate="Action content URI or URL"> -->
+<!--            <parameter-mapping -->
+<!--                intentParameter="Parameter name in Intent URI" -->
+<!--                urlParameter="Parameter name in URL" /> -->
+<!--        </fulfillment> -->
+<!--    </action> -->
+    <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+        android:initialKeyguardLayout="@layout/my_widget"
+        android:initialLayout="@layout/my_widget"
+        android:minWidth="120dp"
+        android:minHeight="60dp"
+        android:previewImage="@drawable/example_appwidget_preview"
+        android:resizeMode="horizontal|vertical"
+        android:updatePeriodMillis="86400000"
+        android:widgetCategory="home_screen">
+
+    </appwidget-provider>
